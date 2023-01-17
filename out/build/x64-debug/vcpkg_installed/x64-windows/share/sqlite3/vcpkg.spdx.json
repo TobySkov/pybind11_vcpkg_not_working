@@ -1,0 +1,204 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/sqlite3-x64-windows-3.40.0#2-619436ed-45fc-4eb9-a31d-9b83b58d950e",
+  "name": "sqlite3:x64-windows@3.40.0#2 350cf054d1340c9872b9295f389c2e20763ee38cdcb2f22a4959f863101252ef",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-7ae0d8527fb488fde10a89c2813802dc9b03b6f9"
+    ],
+    "created": "2023-01-17T21:04:11Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-3"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-4"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-5"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-3",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-4",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-5",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-5",
+      "relationshipType": "DEPENDENCY_MANIFEST_OF",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "sqlite3",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "3.40.0#2",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://github.com/sqlite/sqlite",
+      "licenseConcluded": "blessing",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "SQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine.",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "sqlite3:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "350cf054d1340c9872b9295f389c2e20763ee38cdcb2f22a4959f863101252ef",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "blessing",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "sqlite-amalgamation-${SQLITE_VERSION}.zip",
+      "packageFileName": "sqlite-amalgamation-${SQLITE_VERSION}.zip",
+      "downloadLocation": "https://sqlite.org/2022/sqlite-amalgamation-${SQLITE_VERSION}.zip",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "${sqlite_hash}"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./CMakeLists.txt",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ea6730b7b2331bd31b7f9e992a7eaa4a57e22da3e61f3c1afbfd45aabb11123a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./fix-arm-uwp.patch",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f4397f84d931cccb44a038194c895e28c749f1825ab45db4b5dccd6e3b6b5967"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./portfile.cmake",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c246dd5cdd340d629f3b03410fcc8c18848fb9d27775bf95928589829cd1735a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./sqlite3-config.in.cmake",
+      "SPDXID": "SPDXRef-file-3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7a44f5805ced746c4dcb497055bce06e45eb3ecb3506465fcde4d442a2179d96"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./sqlite3.pc.in",
+      "SPDXID": "SPDXRef-file-4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6a7b00024955229a468460a3d5ce697485bbcd21944dd20f46a5bcacfe11ec94"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./vcpkg.json",
+      "SPDXID": "SPDXRef-file-5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "db629b1de254264312c8bf17962379b3db331c5b553e6afea6ed63d3984182f5"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

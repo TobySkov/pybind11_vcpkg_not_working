@@ -1,0 +1,10 @@
+Package: python3
+Version: 3.10.7
+Port-Version: 4
+Depends: bzip2, expat, libffi, liblzma, openssl, python3, sqlite3, zlib
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 75a6ed567591b4c099a8b140c5b329f21b191cb100138200b0d13761ceb24720
+Description: The Python programming language
+Type: Port
+Status: install ok installed

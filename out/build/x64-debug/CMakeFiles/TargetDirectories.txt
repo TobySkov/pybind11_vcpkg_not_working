@@ -1,0 +1,3 @@
+C:/repos/pybind11_vcpkg_not_working/out/build/x64-debug/CMakeFiles/simple_python.dir
+C:/repos/pybind11_vcpkg_not_working/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/repos/pybind11_vcpkg_not_working/out/build/x64-debug/CMakeFiles/rebuild_cache.dir

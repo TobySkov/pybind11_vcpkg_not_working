@@ -1,0 +1,7 @@
+{
+  "name": "requirements-manifest",
+  "version-string": "0.0.1",
+  "dependencies": [
+    "pybind11"
+  ]
+}

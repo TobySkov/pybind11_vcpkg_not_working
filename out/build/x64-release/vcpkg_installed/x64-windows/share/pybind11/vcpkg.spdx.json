@@ -1,0 +1,137 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/pybind11-x64-windows-2.10.0#1-29ebb96d-def4-46b8-b329-e7adbab2dde3",
+  "name": "pybind11:x64-windows@2.10.0#1 5ccdbb7e947a93213bdedc86f53a5ef782349c5c0ab1839a1b6f80b8bec27e80",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-7ae0d8527fb488fde10a89c2813802dc9b03b6f9"
+    ],
+    "created": "2023-01-17T21:18:58Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "DEPENDENCY_MANIFEST_OF",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "pybind11",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "2.10.0#1",
+      "downloadLocation": "NOASSERTION",
+      "homepage": "https://github.com/pybind/pybind11",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "pybind11 is a lightweight header-only library that exposes C++ types in Python and vice versa, mainly to create Python bindings of existing C++ code",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "pybind11:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "5ccdbb7e947a93213bdedc86f53a5ef782349c5c0ab1839a1b6f80b8bec27e80",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "pybind/pybind11",
+      "downloadLocation": "git+https://github.com/pybind/pybind11@v2.10.0",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "93112ce530a0652b2b4458a137b4a35f2fd8607f82ad96698ef422128d0b53e16e1d06c239ee4643b821acafae09c74eb0f72bc4ee5584aa9fcdaff4d79980d9"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./fix-usage.patch",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a4b889c3bd7b913739b3894a15881dbe3c0b39a6b2acb1da32c30ad2246cbbfb"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./portfile.cmake",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4c30e832a50d7ccaf3cc330288dbf57161beb1a2b8e418f57291c96dae5f7764"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./vcpkg.json",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c649a70cada518464eaebfa12e1291c98c2fc9b1bc1a0c723954e8fb84f9c701"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}
